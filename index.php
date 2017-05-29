@@ -26,7 +26,7 @@ and open the template in the editor.
             <span class="ir-arriba icon-arrow-up2"></span>
             
             <?php
-            /*
+            
             // Inicializamos curl
             $curl = curl_init();
 
@@ -115,19 +115,19 @@ and open the template in the editor.
             
             print_r($resp2);
             echo("<br>");
-            
+            /*
             $json2 = json_decode($resp2, true);
             
             print("<b>REUS/AEROPUERTO</b>: " . $json2["idema"]. "<br>");
-             
+            
             $tempe = array_column($json2, "ubi");
             print_r($tempe);            
             
             idemas = {estacion['ubi']:estacion['idema'] for estacion in datos}
 
             print(idemas['GRANADA/AEROPUERTO'])
-            */
             
+            */
             $curl = curl_init();
 
             
@@ -162,7 +162,7 @@ and open the template in the editor.
             
             $json = json_decode($resp, true);
 
-            
+            print($json);
             print("<b>Estado devuelto</b>: " . $json["estado"]. "<br>");
 
             
