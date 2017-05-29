@@ -49,13 +49,13 @@ body{
 
 #principal{
     position: absolute;
-    top: 150px;
+    top: 160px;
     margin-left:15%;
     margin-right:15%;
     width: 70%;
     height: auto;
     padding: 30px;
-    padding-top: 40px;
+    padding-top: 50px;
     background: url('../images/content.png') repeat;
 }
 
@@ -76,4 +76,14 @@ body{
 	position: fixed;
 	bottom:20px;
 	right:20px;
+}
+
+#barra_menu{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    height: 38px;
+    width: 100%;
+    background-image: url('../images/barramenu.jpg');
+    z-index: 1000;
 }
