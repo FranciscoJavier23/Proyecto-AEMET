@@ -202,12 +202,12 @@ and open the template in the editor.
 
                     print_r($resp2);
                     echo("<br>");
-                
+                    
                 }
                 else //Si no has pulsado el boton de enviar
                 {        
                 ?>
-        
+                
                 <div id="cuadro_busqueda">
                     <table>
                         <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>"            
@@ -224,16 +224,22 @@ and open the template in the editor.
                                 </th>
                             </tr>
                             <tr>
-                                <th><input type="submit" name="enviar" value="enviar"/></th>
+                                <th><input type="submit" name="enviar" value="Enviar"/></th>
                             </tr>
                         </form>
                     </table>
                 </div>
+                <div id="mapa_general">
+                    <a id='lcm2K13_72'></a><script src='http://www.meteoconsult.es/meteodirect/generationjs/javascript?type_affichage=carte&w=400&h=400&idc=lcm2K13&entite=56&type_entite=4&echeance=0&rand=72'></script>
+                </div>
                 <?php
-
                 }
                 ?>
+                
             </div>
+            <div id="footer">
+                </div>
+            
         </div> 
     </body>
 </html>
