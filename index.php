@@ -34,6 +34,9 @@ and open the template in the editor.
                 //Cuando pulsas el boton enviar hace lo siguiente
                 if (isset($_POST['enviar']))             
                 {
+                    //Comprobar ciudad y mostrarla
+                    $ciudad = $_POST['ciudad'];
+                    echo "<h1>".$ciudad."</h1>";
                     // Inicializamos curl
                     $curl = curl_init();
 
